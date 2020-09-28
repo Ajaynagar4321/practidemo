@@ -1,5 +1,6 @@
 package excel;
 
+import org.testng.annotations.Test;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -14,13 +15,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 public class ExcelDemo {
 
 	public static WebDriver driver;
 
-	
-	public static void main(String[] args) throws Exception, Exception, Exception {
+	@Test
+	public static void main() throws Exception, Exception, Exception {
 
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		Workbook wb = WorkbookFactory.create(new FileInputStream("./data/Actitime.xlsx"));
