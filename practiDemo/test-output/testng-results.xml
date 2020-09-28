@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31425" started-at="2020-09-28T06:51:56Z" finished-at="2020-09-28T06:52:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31425" started-at="2020-09-28T06:51:56Z" finished-at="2020-09-28T06:52:28Z">
+      <class name="com.practime.practiDemo.DatadrivenDemo1">
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:com.practime.practiDemo.DatadrivenDemo1@57fffcd7]" name="testdata" duration-ms="10968" started-at="2020-09-28T06:51:57Z" data-provider="data" finished-at="2020-09-28T06:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:com.practime.practiDemo.DatadrivenDemo1@57fffcd7]" name="testdata" duration-ms="6556" started-at="2020-09-28T06:52:08Z" data-provider="data" finished-at="2020-09-28T06:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:com.practime.practiDemo.DatadrivenDemo1@57fffcd7]" name="testdata" duration-ms="6416" started-at="2020-09-28T06:52:15Z" data-provider="data" finished-at="2020-09-28T06:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:com.practime.practiDemo.DatadrivenDemo1@57fffcd7]" name="testdata" duration-ms="6629" started-at="2020-09-28T06:52:21Z" data-provider="data" finished-at="2020-09-28T06:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+      </class> <!-- com.practime.practiDemo.DatadrivenDemo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
