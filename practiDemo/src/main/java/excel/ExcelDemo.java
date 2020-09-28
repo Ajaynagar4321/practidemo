@@ -24,7 +24,7 @@ public class ExcelDemo {
 	@Test
 	public static void main() throws Exception, Exception, Exception {
 
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		/*System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		Workbook wb = WorkbookFactory.create(new FileInputStream("./Data/Actitime.xlsx"));
 		Sheet s = wb.getSheet("UserData");
 		for (int i = 0; i <= s.getLastRowNum(); i++) {
@@ -43,9 +43,10 @@ public class ExcelDemo {
 			
 			driver.findElement(By.name("pwd")).sendKeys(pwtb);
 			Thread.sleep(2000);
-			driver.close();
+			driver.close();*/
+		System.out.println("idsfdsk");
 
 		}
 	}
 
-}
+
