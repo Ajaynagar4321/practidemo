@@ -25,7 +25,7 @@ public class ExcelDemo {
 	public static void main() throws Exception, Exception, Exception {
 
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-		Workbook wb = WorkbookFactory.create(new FileInputStream("./data/Actitime.xlsx"));
+		Workbook wb = WorkbookFactory.create(new FileInputStream("./Data/Actitime.xlsx"));
 		Sheet s = wb.getSheet("UserData");
 		for (int i = 0; i <= s.getLastRowNum(); i++) {
 			driver = new ChromeDriver();
